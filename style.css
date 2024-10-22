@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  text-align: center;
+  background-color: #ffd700;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li {
+  background-color: #ff6347;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 180px);
+  gap: 15px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.grid-item {
+  background-color: #87ceeb;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #333;
+  border: 2px solid #000;
+}
+
+.grid-item:nth-child(1) {
+  background-color: #7292fc;
+  display: grid;
+  grid-row:1/2;
+  grid-column: 1/3;
+  border-radius: 20px;
+}
+
+.grid-item:nth-child(2) {
+  background-color: #f98cd3;
+  display: grid;
+  grid-column: 1/2;
+  grid-row:2/3 ;
+  border-radius: 20px;
+}
+
+.grid-item:nth-child(3) {
+  background-color: #3bff09;
+  border-radius: 20px;
+  grid-column: 2/3;
+  grid-row:2/3 ;
+}
+
+.grid-item:nth-child(4) {
+  background-color: s#ef1a99;
+  grid-row:1/2;
+  border-radius: 20px;
+
+}
+
+.grid-item:nth-child(5) {
+  background-color: #fca2c0;
+  border-radius: 20px;
+}
+
+.grid-item:nth-child(6) {
+  background-color: #97669f;
+  grid-row: 2/4;
+  border-radius: 20px;
+} 
+
+.grid-item:nth-child(7) {
+  background-color: #4caf50;
+  border-radius: 20px;
+  grid-row: 2/4;
+}
+
+.grid-item:nth-child(8) {
+  background-color: #a47875;
+  border-radius: 20px;
+}
+
+.grid-item:nth-child(9) {
+  background-color: #03a9f4;
+  border-radius: 20px;
+}
+.grid-item:nth-child(10) {
+  background-color: #8a7270;
+  border-radius: 20px;
+}
+.grid-item:nth-child(11) {
+  background-color: #b19390;
+  border-radius: 20px;
+
+}
+
+.grid-item:nth-child(12) {
+  background-color: #4b308b;
+  border-radius: 20px;
+}
+.grid-item:nth-child(13) {
+  background-color: #92271d;
+  border-radius: 20px;
+
+}
